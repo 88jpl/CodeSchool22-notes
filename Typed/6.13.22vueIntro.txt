@@ -1,0 +1,24 @@
+What are frameworks? Modular way of building to makle lives easier.
+--So can focus on higher level stuff.
+-Types: Vue.js(frontend); Node.js(backend); React.js
+
+Vue2 Resource == https://v2.vuejs.org/v2/guide/
+
+Need to know directives for Vue:
+Directive = special HTML attributes that allow you to manuipulate the DOM.
+
+v-if = Display element if variable is true. (Creates and Destroys)
+v-else = Display element if variable is not-true. (Creates and Destroys)
+
+v-show = Display element if variable is true.(Doens't work with v-else; 
+            loads all at once)
+v-on = Action(Event) to element. i.e: ":click", ":mouse", ":mouseover" 
+    https://v2.vuejs.org/v2/guide/events.html   (Event Handling)
+v-for = Creates an instance of all innnerHTML i.e: "item in items" loops 
+        through each item in  items. (Looping over array structure in code)
+v-model = Binds question variable and input value together, goes both ways. 
+            (Used with input)
+v-bind:style = "{color: '#fff'}" would turn all text within element white.
+                i.e: ":disabled", ":class", ":id"
+
+if text is hanging on refresh 
